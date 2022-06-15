@@ -10,6 +10,8 @@ elif op == '*':
     print(f"{o1} * {o2} = ", o1*o2)
 elif op == '/':
     print(f"{o1} / {o2} = ", o1/o2)
+elif op == '//':
+    print(f"{o1} // {o2} = ", o1//o2)
 elif op == '%':
     print(f"{o1} % {o2} = ", o1%o2)
 else:

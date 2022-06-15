@@ -4,7 +4,8 @@ upper = 0
 lower = 0
 
 s = input("Enter a sentence: ")
-s = s + '.'
+#to define the end of the sentence
+s = s.strip() + '.'
 
 for i in s:
     if i == ' ' or i == '.':

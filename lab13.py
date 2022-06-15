@@ -1,5 +1,4 @@
 a = [78,65,22,66,99]
-
 print('The elements of the list are: ', a)
 
 x = int(input("Enter a number to append: "))

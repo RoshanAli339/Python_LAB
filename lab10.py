@@ -1,6 +1,5 @@
 from math import *
 
-
 def ncr(n, r):
     return int(factorial(n)/(factorial(n-r) * factorial(r)))
 

@@ -1,5 +1,6 @@
 from math import *
 
+
 def prime(n):
     flag = True
     for i in range(2, n//2+1):

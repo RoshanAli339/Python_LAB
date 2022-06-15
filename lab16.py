@@ -14,6 +14,7 @@ def variance(a, n):
     return var
 
 def sd(a, n):
+    #standard deviation is the square root of variance
     return variance(a,n)**(1/2)
 
 a=[]

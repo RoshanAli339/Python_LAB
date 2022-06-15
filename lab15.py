@@ -1,6 +1,7 @@
 r = int(input("Enter number of rows of matrix : "))
 c = int(input("Enter number of columns of matrix: "))
 
+
 mat = [[0 for i in range(c)] for i in range(r)]
 
 print("Enter the elements of the matrix: ")

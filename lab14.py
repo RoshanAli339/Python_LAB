@@ -4,6 +4,7 @@ c1 = int(input("Enter number of columns in matrix A: "))
 r2 = int(input("Enter number of rows in matrix B: "))
 c2 = int(input("Enter number of columns in matrix B: "))
 
+#number of columns of first matrix should be equal to number of rows of second matrix
 if c1!=r2:
     print("Matrix multiplication is not possible!")
     exit(1)

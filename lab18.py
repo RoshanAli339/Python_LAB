@@ -6,6 +6,7 @@ def isPalindrome(a):
     if s == a: return True
     else: return False
 
+
 a = input("Enter a string: ")
 if isPalindrome(a):
     print(a, " is a Palindrome")
