@@ -1,8 +1,9 @@
 def gcd(n1, n2):
     if n2 != 0:
-        gcd(n2, n1%n2)
+        gcd(n2, n1 % n2)
     else:
         return n1
+
 
 n1 = int(input("Enter first number: "))
 n2 = int(input("Enter second number: "))
