@@ -1,8 +1,17 @@
 f = open("quotes.txt", "r")
+data = f.read()
 
-#converting all letters to lowercase for easy comparison
-sen = f.read().lower().strip().split(' ')
+data = data.split(' ')
 
-words = len(sen)
+fdata = []
+for i in data:
+    if i not in fdata:
+        fdata.append(i)
 
-print('number of words = ', words)
+l1 = len(data)
+
+print("Number of words in the file: ", l1)
+
+for i in fdata:
+    l2 = data.count(i)
+    print(f"The frequency of \"{i}\" is: {l2}")
