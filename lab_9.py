@@ -1,6 +1,4 @@
-def perm(start, end=None):
-    if end is None:
-        end = []
+def perm(start, end=[]):
     if len(start) == 0:
         print(end)
     else:
@@ -9,8 +7,10 @@ def perm(start, end=None):
 
 
 ele = input('Enter space separated values: ')
-a = ele.split(' ')
+a = ele.strip().split(' ')
 a = [int(i) for i in a]
+
+print("Before performing any operations the list is: ", a)
 
 a.sort()
 print('After sorting the elements of the list are: ', a)
