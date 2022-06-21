@@ -11,7 +11,7 @@ print(f'{a} raised to the power {b}: ', pow(a, b))
 x = int(input("Enter an integer to find its factorial: "))
 print(f'Factorial of {a} is: ', factorial(x))
 
-x = int(input("Enter a integer to find its ASCII equivalent character: "))
+x = int(input("Enter an integer to find its ASCII equivalent character: "))
 print(f"The ASCII equivalent of {x} is: ", chr(x))
 
 x = input("Enter a character to find its ASCII value: ")
