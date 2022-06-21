@@ -21,11 +21,6 @@ a=[]
 ele = input("Enter the elements: ")
 a = ele.split(' ')
 a = [int(x) for x in a]
-#n = int(input("Number of elements: "))
-#print("Enter the elements: ")
-#for i in range(n):
-#    ele = int(input())
-#    a.append(ele)
 n = len(a)
 print("Mean of given data: ", mean(a,n))
 print("Variance of given data: ", variance(a,n))
