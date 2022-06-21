@@ -5,7 +5,7 @@ b = float(input("Enter second number: "))
 
 print('Floor value of a: ', floor(a))
 print('Ceil value of b: ', ceil(b))
-print('Absolute value of a: ', )
+print('Absolute value of a: ', fabs(a))
 print(f'{a} raised to the power {b}: ', pow(a, b))
 
 x = int(input("Enter an integer to find its factorial: "))
