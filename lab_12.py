@@ -1,7 +1,7 @@
 f = open("quotes.txt", "r")
 data = f.read()
 
-data = data.split(' ')
+data = data.split()
 
 fdata = []
 for i in data:
