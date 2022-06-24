@@ -28,7 +28,7 @@ c = [[0 for i in range(r1)] for i in range(c2)]
 for i in range(r1):
     for j in range(c2):
         for k in range(c1):
-            c[i][j] = a[i][k] + b[k][j]
+            c[i][j] += a[i][k] * b[k][j]
 
 print("Matrix A x Matrix B: ")
 for i in range(r1):
