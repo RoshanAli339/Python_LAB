@@ -1,8 +1,4 @@
-ele = input("Enter the elements of the list: ")
-a = ele.split(' ')
-a = [int(i) for i in a]
-
-# a = list(set(a))
+a = [int(x) for x in input("Enter the elements: ").strip().split()]
 f = []
 
 for i in a:
