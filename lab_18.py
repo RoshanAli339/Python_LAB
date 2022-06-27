@@ -1,9 +1,6 @@
 def isPalindrome(a):
-    l = len(a)
-    s=''
-    for i in range(l-1, -1, -1):
-        s += a[i]
-    if s == a: return True
+    s = a[: : -1]
+    if s.lower() == a.lower(): return True
     else: return False
 
 
