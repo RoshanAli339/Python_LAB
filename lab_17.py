@@ -8,7 +8,7 @@ print("The keys are: ", d.keys())
 
 a = input("Enter a unit to pop out from the list: ")
 x = d.pop(a)
-print("The popped out element is: ", x)
+print("The popped out value is: ", x)
 
 a = input("Enter a unit to update the dict: ")
 x = input("Enter the value to update with: ")
